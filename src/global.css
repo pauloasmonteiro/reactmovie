@@ -12,3 +12,34 @@ body{
 img{
     max-width: 100%;
 }
+
+.container{
+    max-width: 1140px;
+    margin: 0 auto;
+    padding: 0;
+}
+
+.selector{
+    margin: 10px 0;
+    max-width: 100px;
+    align-items: center;
+    margin-left: 1030px;
+}
+
+.buttonPage{
+    background-color: #000E2A;
+    color: white;
+    border: none;
+    padding: 10px 258px;
+    border-radius: 5px;
+    cursor: pointer;
+
+    &:hover{
+        background-color: #00b1e9;
+    }
+}
+
+.input{
+    margin: 10px 0;
+    margin-left: 975px;
+}

@@ -10,7 +10,7 @@ export function Series(){
                     Confira as produções mais populares do mundo.
                 </p>
             </Banner>
-            <List/>
+            <List menu='tv' />
         </>
     )
 }

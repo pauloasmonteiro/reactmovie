@@ -20,7 +20,6 @@ export const HeaderStyle = styled.div `
             color: #ffffff;
             text-decoration: none;
         }
-
     }    
 `
 

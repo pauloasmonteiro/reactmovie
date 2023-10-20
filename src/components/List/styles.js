@@ -1,23 +1,55 @@
 import styled from "styled-components";
 
-export const ListStyle = styled.div `
+export const CardsList = styled.div `
     display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 25px;        
+    flex-wrap: wrap;
+    gap: 30px; 
+    margin: 20px 0;
+`
+
+export const CartsItem = styled.div `
+    max-width: 260px;
+    position: relative;
+    img{
+        border-radius: 10px;
+        opacity: 0.7;
+        &:hover{
+            opacity: 1;
+        }
+    }
+`
+
+export const CardsContent = styled.div `
+    bottom: 15px;
+    left: 15px;
+    position: absolute; //posição em relação ao elemento pai
+    color: #ffffff;
+    text-shadow: 1px 1px 1px black;
     
-    @media (max-width: 640px){
-        flex-direction: column;
-        row-gap: 20px;
+    h2{
+        font-size: 24px;
     }
 
-    nav{
-        display: flex;
-        column-gap: 80px;
+    h3{
+        font-size: 16px;
+    }
 
-        a{
-            color: #ffffff;
-            text-decoration: none;
+    span{
+        font-size: 16px;
+        font-weight: bold;
+        color: #FAFF00;
+    }
+
+    button{
+        background-color: #000E2A;
+        color: white;
+        border: none;
+        padding: 10px 258px;
+        border-radius: 5px;
+        cursor: pointer;
+
+        &:hover{
+            background-color: #00b1e9;
         }
-    }    
+    }
 `
